@@ -2,6 +2,6 @@ name: TestPlugin
 main: uk.co.bobwalker.minecraft.plugins.testplugin.TestPlugin
 version: 0.0.1-SNAPSHOT
 commands:
-	awesome:
-		description: Nothing to see here
-		usage: /<command>
+    awesome:
+        description: Nothing to see here
+        usage: /<command> 

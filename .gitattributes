@@ -1,0 +1,55 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files we want to always be normalized and converted 
+# to native line endings on checkout.
+
+# Source code
+*.java text
+*.scala text
+*.js text
+*.json text
+
+# SQL
+*.sql text
+*.spb text
+*.sps text
+
+# XML
+*.xml text
+*.xsl text
+*.xslt text
+*.dtd text
+*.xsd text
+*.bpmn text
+*.xjb text
+
+# Generic text
+*.txt text
+*.properties text
+*.log text
+*.script text
+*.story text
+*.disabled text
+
+# Files that will always have CRLF line endings on checkout.
+*.cs  eol=crlf
+*.sln eol=crlf
+*.sh  eol=lf
+*.bat eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.pdf binary
+*.xls binary
+*.doc binary
+*.xlsx binary
+*.docx binary
+*.ppt binary
+*.pptx binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+
+
