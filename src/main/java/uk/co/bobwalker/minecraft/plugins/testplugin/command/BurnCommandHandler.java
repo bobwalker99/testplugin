@@ -1,8 +1,10 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin;
+package uk.co.bobwalker.minecraft.plugins.testplugin.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+
+import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
 
 public class BurnCommandHandler implements CommandHandler {
 

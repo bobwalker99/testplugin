@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin;
+package uk.co.bobwalker.minecraft.plugins.testplugin.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin;
+package uk.co.bobwalker.minecraft.plugins.testplugin.command;
 
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
@@ -11,6 +11,10 @@ import org.bukkit.entity.Player;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.powermock.modules.junit4.PowerMockRunner;
+
+import uk.co.bobwalker.minecraft.plugins.testplugin.command.BurnCommandHandler;
+import uk.co.bobwalker.minecraft.plugins.testplugin.command.CommandHandler;
+import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
 
 @RunWith(PowerMockRunner.class)
 public class CommandHandlerTest {

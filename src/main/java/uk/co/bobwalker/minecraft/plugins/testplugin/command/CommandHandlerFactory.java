@@ -1,4 +1,6 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin;
+package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+
+import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
 
 public class CommandHandlerFactory {
 
