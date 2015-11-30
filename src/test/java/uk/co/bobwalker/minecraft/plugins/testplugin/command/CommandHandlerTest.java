@@ -9,14 +9,9 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.powermock.modules.junit4.PowerMockRunner;
 
-import uk.co.bobwalker.minecraft.plugins.testplugin.command.BurnCommandHandler;
-import uk.co.bobwalker.minecraft.plugins.testplugin.command.CommandHandler;
 import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
 
-@RunWith(PowerMockRunner.class)
 public class CommandHandlerTest {
 
     @Test
