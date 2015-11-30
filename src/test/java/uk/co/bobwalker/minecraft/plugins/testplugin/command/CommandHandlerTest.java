@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+import java.util.logging.Logger;
+
 import org.bukkit.Server;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -21,6 +23,7 @@ public class CommandHandlerTest {
         CommandSender sender = mock(Player.class);
         Command command = mock(Command.class);
         ServerProvider serverProvider = mock(ServerProvider.class);
+        Logger logger = mock(Logger.class);
         Server server = mock(Server.class);
         Player player = mock(Player.class);
         when(serverProvider.getServer()).thenReturn(server);
@@ -28,7 +31,7 @@ public class CommandHandlerTest {
         when(command.getName()).thenReturn("burn");
         String label = "Test Label";
         String[] args = { playerName };
-        CommandHandler handler = new BurnCommandHandler(serverProvider);
+        CommandHandler handler = new BurnCommandHandler(serverProvider, logger);
 
         // When
         boolean result = handler.handleCommand(sender, command, label, args);

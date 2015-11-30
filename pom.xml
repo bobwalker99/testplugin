@@ -3,10 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.co.bobwalker.minecraft.plugins</groupId>
 	<artifactId>testplugin</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>Test Plugin</name>
 	<description>A Test Plugin</description>
 	<build>
+	   <resources>
+	       <resource>
+	           <directory>src/main/resources</directory>
+	           <filtering>true</filtering>
+	       </resource>
+	   </resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
