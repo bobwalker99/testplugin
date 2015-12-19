@@ -1,7 +1,10 @@
-name: TestPlugin
-main: uk.co.bobwalker.minecraft.plugins.testplugin.TestPlugin
+name: FatDuckPlugin
+main: uk.co.bobwalker.minecraft.plugins.fatduckplugin.FatDuckPlugin
 version: ${project.version}
 commands:
     burn:
         description: Nothing to see here
         usage: /<command> 
+    fly:
+        description: Makes a player fly
+        usage: /<command>

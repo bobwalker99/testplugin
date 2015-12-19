@@ -1,7 +1,8 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.command;
 
 public enum Command {
-    BURN;
+    BURN,
+    FLY;
 
     public static Command fromString(String value) {
         for (Command command : Command.values()) {

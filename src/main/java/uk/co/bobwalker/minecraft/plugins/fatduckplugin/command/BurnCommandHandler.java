@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.command;
 
 import java.util.logging.Logger;
 
@@ -6,7 +6,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.server.ServerProvider;
 
 public class BurnCommandHandler implements CommandHandler {
 

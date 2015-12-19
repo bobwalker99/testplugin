@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.command;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -10,7 +10,10 @@ import java.util.logging.Logger;
 import org.junit.Before;
 import org.junit.Test;
 
-import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.BurnCommandHandler;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.CommandHandler;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.CommandHandlerFactory;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.server.ServerProvider;
 
 public class CommandHandlerFactoryTest {
 

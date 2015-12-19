@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.server;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.server;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
