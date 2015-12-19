@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin;
 
 import java.io.File;
 import java.util.logging.Logger;
@@ -9,23 +9,23 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.java.JavaPluginLoader;
 
-import uk.co.bobwalker.minecraft.plugins.testplugin.command.CommandHandler;
-import uk.co.bobwalker.minecraft.plugins.testplugin.command.CommandHandlerFactory;
-import uk.co.bobwalker.minecraft.plugins.testplugin.server.BukkitServerProvider;
-import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.CommandHandler;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.CommandHandlerFactory;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.server.BukkitServerProvider;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.server.ServerProvider;
 
-public class TestPlugin extends JavaPlugin {
+public class FatDuckPlugin extends JavaPlugin {
 
     private ServerProvider serverProvider;
     private Logger logger;
 
-    public TestPlugin() {
+    public FatDuckPlugin() {
         super();
         this.serverProvider = new BukkitServerProvider();
         this.logger = this.getLogger();
     }
 
-    public TestPlugin(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
+    public FatDuckPlugin(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
         super(loader, description, dataFolder, file);
         this.logger = this.getLogger();
         this.serverProvider = new BukkitServerProvider();

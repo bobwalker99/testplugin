@@ -1,8 +1,8 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.command;
 
 import java.util.logging.Logger;
 
-import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.server.ServerProvider;
 
 public class CommandHandlerFactory {
 
@@ -20,11 +20,14 @@ public class CommandHandlerFactory {
         CommandHandler handler = null;
         if (null != command) {
             switch (command) {
-            case BURN:
-                handler = new BurnCommandHandler(provider, logger);
-                break;
-            default:
-            }
+	            case BURN:
+	                handler = new BurnCommandHandler(provider, logger);
+	                break;
+	            case FLY:
+	            	handler = new FlyCommandHandler(provider, logger);
+	            	break;
+	            default:
+	        }
         }
         return handler;
     }

@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.command;
 
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
@@ -12,9 +12,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.junit.Test;
 
-import uk.co.bobwalker.minecraft.plugins.testplugin.server.ServerProvider;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.BurnCommandHandler;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.CommandHandler;
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.server.ServerProvider;
 
-public class CommandHandlerTest {
+public class BurnCommandHandlerTest {
 
     @Test
     public void testHandleCommand() {

@@ -1,8 +1,10 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.command;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import uk.co.bobwalker.minecraft.plugins.fatduckplugin.command.Command;
 
 public class CommandTest {
 

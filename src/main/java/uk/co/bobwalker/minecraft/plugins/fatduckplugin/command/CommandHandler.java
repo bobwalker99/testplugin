@@ -1,4 +1,4 @@
-package uk.co.bobwalker.minecraft.plugins.testplugin.command;
+package uk.co.bobwalker.minecraft.plugins.fatduckplugin.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
